@@ -3,26 +3,33 @@ import React from "react";
 const Contact = () => {
   const sections = [
     {
-      name: "Email",
+      name: "Main Document!",
       content:
-        "mark.fang.mo@gmail.com",
+        "Placeholder Text",
     },
     {
-      name: "Discord User Name:",
+      name: "Game",
       content:
-        "@coolusername#4455",
+        "Placeholder text",
+    },
+
+    {
+
+      name: "Discord Server",
+      content:
+        "Placeholder text HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"
     },
   ];
 
   return (
     <div className="flex flex-col items-center space-y-6">
-      <h1 className="text-6xl">Contact.</h1>
+      <h1 className="text-6xl text-black">Read it here!</h1>
       <div className="flex flex-col items-center container space-y-2">
         {sections.map((item) => {
           return (
-            <div className="w-full shadow-blue-500 flex flex-col items-start space-y-4 text-white rounded-xl px-4 py-8  shadow-xl">
-              <h1 className="text-4xl font-bold">{item.name}</h1>
-              <p className="font-semibold shadow-lg shadow-black underline">{item.content}</p>
+            <div className="w-full shadow-xl  bg-orange-500 flex flex-col items-start space-y-4 text-black rounded-xl px-4 py-8  shadow-xl">
+              <h1 className="text-4xl">{item.name}</h1>
+              <p>{item.content}</p>
             </div>
           );
         })}

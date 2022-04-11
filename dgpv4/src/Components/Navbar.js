@@ -3,8 +3,8 @@ import React from "react";
 const Navbar = () => {
   const pages = [
     { name: "Home", redirect: "" },
-    { name: "About", redirect: "about" },
-    { name: "Read It", redirect: "Read"}
+    { name: "Read it here", redirect: "contact" },
+    { name: "About", redirect: "about"}
   ];
 
   return (

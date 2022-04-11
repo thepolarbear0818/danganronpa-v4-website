@@ -1,4 +1,4 @@
-//import About from "./components/About";
+import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 //import Testing from "./components/Testing";
@@ -22,7 +22,7 @@ function App() {
         </div>
         
         <Contact />
-        
+        <About />
       </div>
     </div>
   );
