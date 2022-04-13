@@ -1,21 +1,21 @@
 import React from "react";
 
-const Contact = () => {
+const ReadOnSite = () => {
   const sections = [
     {
-      name: "Main Document!",
+      name: "Chapter 1",
       content:
         "Placeholder Text",
     },
     {
-      name: "Game",
+      name: "Chapter 2",
       content:
         "Placeholder text",
     },
 
     {
 
-      name: "Discord Server",
+      name: "Chapter 3",
       content:
         "Placeholder text HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"
     },
@@ -38,4 +38,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ReadOnSite;

@@ -4,12 +4,13 @@ const Navbar = () => {
   const pages = [
     { name: "Home", redirect: "" },
     { name: "Read it here", redirect: "contact" },
-    { name: "About", redirect: "about"}
+    { name: "About", redirect: "about"},
+    { name: "Read On site", redirect: "foo"}
   ];
 
   return (
-    <nav className="flex bg-orange-500 text-white w-full px-4 py-6">
-      <div className="flex items-center bg-orange-500 w-full space-x-12">
+    <nav className="flex bg-blue-700 text-white w-full px-4 py-6">
+      <div className="flex items-center bg-blue-700 w-full space-x-12">
         <h1 className="text-4xl ">Danganronpa V4</h1>
         <ul className="flex items-center space-x-8">
           {pages.map((item) => {

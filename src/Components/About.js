@@ -20,11 +20,11 @@ const About = () => {
 
   return (
     <div id="about" className="flex flex-col items-start space-y-6">
-      <h1 className="text-6xl text-black items-start px-4 py-8 w-full flex flex-col items-center">About</h1>
+      <h1 className="text-6xl dark:text-white text-black items-start px-4 py-8 w-full flex flex-col items-center">About</h1>
       <div className="flex flex-col container space-y-6">
         {sections.map((item) => {
           return (
-            <div className="border-2 border-white w-full flex flex-col items-start space-y-4 bg-orange-500 text-black rounded-xl px-4 py-8  shadow-xl">
+            <div className="  w-full flex flex-col items-start space-y-4 bg-blue-700 text-white rounded-xl px-4 py-8  shadow-xl">
               <h1 className="text-4xl">{item.name}</h1>
               <p>{item.content}</p>
             </div>
