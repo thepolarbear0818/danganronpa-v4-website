@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/thepolarbear0818/danganronpa-v4-website/static/css/main.e6c13ad2.css",
-    "main.js": "/thepolarbear0818/danganronpa-v4-website/static/js/main.a88e3320.js",
-    "static/js/787.e13a37bf.chunk.js": "/thepolarbear0818/danganronpa-v4-website/static/js/787.e13a37bf.chunk.js",
-    "static/media/ReadOnSite": "/thepolarbear0818/danganronpa-v4-website/static/media/ReadOnSite.5d9bb0f0df439388b73f",
-    "index.html": "/thepolarbear0818/danganronpa-v4-website/index.html",
-    "main.e6c13ad2.css.map": "/thepolarbear0818/danganronpa-v4-website/static/css/main.e6c13ad2.css.map",
-    "main.a88e3320.js.map": "/thepolarbear0818/danganronpa-v4-website/static/js/main.a88e3320.js.map",
-    "787.e13a37bf.chunk.js.map": "/thepolarbear0818/danganronpa-v4-website/static/js/787.e13a37bf.chunk.js.map"
+    "main.css": "/danganronpa-v4-website/static/css/main.e6c13ad2.css",
+    "main.js": "/danganronpa-v4-website/static/js/main.b2e2fe59.js",
+    "static/js/787.e13a37bf.chunk.js": "/danganronpa-v4-website/static/js/787.e13a37bf.chunk.js",
+    "static/media/ReadOnSite": "/danganronpa-v4-website/static/media/ReadOnSite.5d9bb0f0df439388b73f",
+    "index.html": "/danganronpa-v4-website/index.html",
+    "main.e6c13ad2.css.map": "/danganronpa-v4-website/static/css/main.e6c13ad2.css.map",
+    "main.b2e2fe59.js.map": "/danganronpa-v4-website/static/js/main.b2e2fe59.js.map",
+    "787.e13a37bf.chunk.js.map": "/danganronpa-v4-website/static/js/787.e13a37bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a88e3320.js"
+    "static/js/main.b2e2fe59.js"
   ]
 }
